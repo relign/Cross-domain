@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+  console.log(window.location.host);
+    var xhr = new XMLHttpRequest();
+    xhr.open("post","http://127.0.0.1:3000/getInfo",true);
+    xhr.setRequestHeader('Access-Control-Allow-Origin','127.0.0.1:3000');
+    xhr.withCredentials = true;
+    xhr.onload = function () {
+
+    }
+    console.log(xhr.getResponseHeader('Info'));
+    xhr.send('a=1&b=2');
+  </script>
+</body>
+</html>
