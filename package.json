@@ -1,0 +1,19 @@
+{
+  "name": "cross",
+  "version": "1.0.0",
+  "description": "在美团面试中曾被问道跨域问题,小白表示只知道如何解决跨域,并没有实际处理过。\r  所以新建这个demo,利用node去实战解决跨域的种种方法.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relign/Cross-domain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/relign/Cross-domain/issues"
+  },
+  "homepage": "https://github.com/relign/Cross-domain#readme"
+}

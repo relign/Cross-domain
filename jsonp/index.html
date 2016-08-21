@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function createScript(src) {
+      var script = document.createElement('script');
+      script.setAttribute('type','text/javascript');
+      script.src = src;
+      document.body.appendChild(script);
+    }
+    window.onload = function () {
+      createScript('http://127.0.0.1:3000/jsonp?callback=test');
+    }
+    function test(data) {
+      alert(data.name);
+    }
+  </script>
+</body>
+</html>
