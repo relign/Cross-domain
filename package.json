@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/relign/Cross-domain/issues"
   },
-  "homepage": "https://github.com/relign/Cross-domain#readme"
+  "homepage": "https://github.com/relign/Cross-domain#readme",
+  "dependencies": {
+    "ws": "^1.1.1"
+  }
 }
